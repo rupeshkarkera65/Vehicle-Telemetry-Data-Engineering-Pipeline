@@ -1,0 +1,17 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "kafkaTrigger",
+      "direction": "in",
+      "name": "event",
+      "topic": "vehicle.alerts.notifications",
+      "brokerList": "your_server_name",
+      "username": "your_username_here",
+      "password": "your_password_here",
+      "consumerGroup": "azure-function-alerts",
+      "protocol": "SASLSSL",
+      "authenticationMode": "PLAIN",
+      "dataType": "binary"
+    }  ]
+}

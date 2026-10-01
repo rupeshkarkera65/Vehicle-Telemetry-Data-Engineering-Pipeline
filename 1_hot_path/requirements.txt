@@ -1,0 +1,5 @@
+
+azure-functions
+confluent-kafka[avro]
+twilio
+azure-storage-blob
